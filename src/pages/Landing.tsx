@@ -33,7 +33,7 @@ const Landing = () => {
           Jasa dan Produk Digital
         </Button>
         
-        <Button variant="outline" className="w-full h-auto py-4 px-6 bg-white hover:bg-slate-50 text-slate-900 border border-slate-200 shadow-sm hover:shadow transition-all duration-300" onClick={() => window.open("https://amahdigital.blogspot.com/p/gratis.html", "_blank")}>
+        <Button variant="outline" onClick={() => window.open("https://amahdigital.blogspot.com/p/gratis.html", "_blank")} className="w-full h-auto py-4 px-6 border border-slate-200 shadow-sm hover:shadow transition-all duration-300 bg-sky-400 hover:bg-sky-300 text-slate-50">
           Produk Gratis
         </Button>
         
