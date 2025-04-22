@@ -1,6 +1,6 @@
-
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { ExternalLink } from "lucide-react";
 
 const portfolioItems = [
   {
@@ -84,8 +84,13 @@ const Portfolio = () => {
                   </div>
                 </div>
                 
-                <Button variant="outline" className="w-full border-slate-200 text-sky-500 hover:bg-sky-50 hover:text-sky-600 hover:border-sky-200">
+                <Button 
+                  variant="outline" 
+                  className="w-full border-slate-200 text-sky-500 hover:bg-sky-50 hover:text-sky-600 hover:border-sky-200"
+                  onClick={() => window.open("https://www.maksimalindiri.com/", "_blank")}
+                >
                   View Case Study
+                  <ExternalLink className="ml-2 w-4 h-4" />
                 </Button>
               </div>
             </div>
