@@ -2,7 +2,7 @@
 import React from "react";
 import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 import { Button } from "@/components/ui/button";
-import { WhatsApp } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 const Landing = () => {
   const openWhatsApp = () => {
@@ -64,7 +64,7 @@ const Landing = () => {
           className="w-full h-auto py-4 px-6 bg-emerald-500 hover:bg-emerald-600 text-white font-medium shadow-sm hover:shadow transition-all duration-300 flex items-center justify-center gap-2"
           onClick={openWhatsApp}
         >
-          <WhatsApp className="w-5 h-5" />
+          <MessageCircle className="w-5 h-5" />
           Hubungi via WhatsApp
         </Button>
       </div>
