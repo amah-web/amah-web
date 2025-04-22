@@ -29,7 +29,7 @@ const Landing = () => {
 
       {/* Navigation Buttons */}
       <div className="flex flex-col gap-4 w-full max-w-md mb-8">
-        <Button variant="outline" onClick={() => window.open("https://amahdigital.blogspot.com/", "_blank")} className="w-full h-auto py-4 px-6 text-slate-900 border border-slate-200 shadow-sm hover:shadow transition-all duration-300 bg-slate-500 hover:bg-slate-400">
+        <Button variant="outline" onClick={() => window.open("https://amahdigital.blogspot.com/", "_blank")} className="w-full h-auto py-4 px-6 border border-slate-200 shadow-sm hover:shadow transition-all duration-300 bg-sky-400 hover:bg-sky-300 text-slate-50">
           Jasa dan Produk Digital
         </Button>
         
