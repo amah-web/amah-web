@@ -41,7 +41,7 @@ const Landing = () => {
           Panduan Affiliate Marketing Mendapat 1 Juta Pertama
         </Button>
 
-        <Button className="w-full h-auto py-4 px-6 bg-emerald-500 hover:bg-emerald-600 text-white font-medium shadow-sm hover:shadow transition-all duration-300 flex items-center justify-center gap-2" onClick={openWhatsApp}>
+        <Button onClick={openWhatsApp} className="w-full h-auto py-4 px-6 text-white font-medium shadow-sm hover:shadow transition-all duration-300 flex items-center justify-center gap-2 bg-blue-700 hover:bg-blue-600">
           <MessageCircle className="w-5 h-5" />
           Hubungi via WhatsApp
         </Button>
