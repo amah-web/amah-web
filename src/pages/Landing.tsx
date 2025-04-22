@@ -20,11 +20,8 @@ const Landing = () => {
         <h1 className="text-2xl font-semibold text-slate-900 mb-4">
           Hi, I'm Amah
         </h1>
-        <p className="text-slate-600 leading-relaxed mb-8 px-4">
-          I love making money online. I'm not a programmer but I enjoy learning coding. 
-          I'm also passionate about solving problems with technology — even as simple as 
-          automating repetitive tasks. I'm deeply enthusiastic about the progress of AI.
-        </p>
+        <p className="text-slate-600 leading-relaxed mb-8 px-4">Saya senang mencari uang di internet. Saya juga belajar hal baru terutama tentang bisnis dan pengembangan diri, saya juga sangat antusias dengan perkembangan AI.
+Website ini merekomendasikan beberapa produk dan kelas dari vendor yang terpercaya.</p>
       </div>
 
       {/* Navigation Buttons */}
