@@ -10,7 +10,7 @@ const Landing = () => {
       {/* Profile Section */}
       <div className="mb-8">
         <Avatar className="w-32 h-32 border-4 border-white shadow-lg">
-          <AvatarImage src="https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?crop=entropy&cs=tinysrgb&fit=crop&w=500&h=500" alt="Ummi Salamah" />
+          <AvatarImage alt="Ummi Salamah" src="/lovable-uploads/c3040c16-9b9b-407c-8df1-a5f6a9402ae1.jpg" />
           <AvatarFallback>US</AvatarFallback>
         </Avatar>
       </div>
